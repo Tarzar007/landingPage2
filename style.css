@@ -1,0 +1,46 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Montserrat:wght@200&family=Source+Sans+3:ital,wght@0,400;0,700;1,600&display=swap');
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+   background: url('Background.png') no-repeat center center fixed;
+   background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    color: azure;
+text-shadow: 1px 1px 2px black;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+.btn-primary:hover{
+    background-color: #c56e09;
+    border-color: #c56e09;
+    border-width: 4px;
+
+}
+.btn-xl{
+    padding: 1rem 2rem;
+    width: 20rem;
+}
+.buffer{
+    height: 5rem;
+}
+
+.row hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;
+}
